@@ -313,7 +313,6 @@ epic.map = {
 			/* map */
 			epic.map.initMap(id);
 			epic.map.initItems(id);
-			//epic.map.initMarkers(id);
 			setTimeout(() => {epic.map.initFilters(id)}, 100);
 		});
 	}
